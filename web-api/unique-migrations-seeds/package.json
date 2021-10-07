@@ -1,0 +1,31 @@
+{
+  "name": "@unique-network/unique-migrations-seeds",
+  "version": "0.0.1",
+  "description": "Database access library for unique marketplace.",
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.37"
+  },
+  "scripts": {
+    "build": "tsc  --project tsconfig.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "prepublish": "tsc  --project tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniqueNetwork/unique-migrations-seeds.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniqueNetwork/unique-migrations-seeds/issues"
+  },
+  "homepage": "https://github.com/UniqueNetwork/unique-migrations-seeds#readme"
+}

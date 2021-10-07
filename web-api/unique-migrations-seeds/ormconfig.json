@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "127.0.0.1",
+   "port": 5432,
+   "username": "marketplace",
+   "password": "12345",
+   "database": "marketplace",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "dist/entity/**/*.js"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
