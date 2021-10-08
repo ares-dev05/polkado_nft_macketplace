@@ -5,7 +5,7 @@ import './style.scss';
 
 import React from 'react';
 
-import errorSvg from './images/error.svg';
+import errorSvg from './../images/error.svg';
 
 function PageNotFound (): React.ReactElement {
   return (
