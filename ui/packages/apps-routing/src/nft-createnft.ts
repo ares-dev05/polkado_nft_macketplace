@@ -18,7 +18,7 @@ export default function create (t: TFunction): Route {
     },
     group: 'nft',
     icon: 'users',
-    name: 'Create NFT',
+    name: 'createnft',
     text: t('nav.creaetNft', 'Create NFT', { ns: 'apps-routing' })
   };
 }
