@@ -11,6 +11,7 @@ import faq from './faq';
 import nftMarket from './nft-market';
 import nftTrades from './nft-trades';
 import nftWallet from './nft-wallet';
+import nftCreateNft from './nft-createnft';
 
 const { walletMode } = envConfig;
 
@@ -26,6 +27,7 @@ export default function create (t: TFunction): Routes {
     nftTrades(t),
     nftWallet(t),
     nftMarket(t),
+    nftCreateNft(t),
     accounts(t),
     faq(t)
   ];
